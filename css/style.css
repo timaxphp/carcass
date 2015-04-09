@@ -1,0 +1,65 @@
+ @charset "utf-8";
+
+/* Fonts */
+@font-face {
+    font-family: 'segoe_uiregular';
+    src: url('fonts/segoeui-webfont.eot');
+    src: url('fonts/segoeui-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/segoeui-webfont.woff') format('woff'),
+    url('fonts/segoeui-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* GENERAL - (body styles, reset, font faces, links, headings and other tags) */
+html,body	{
+     margin:0px; padding:0px; 
+     font: 12px/1.3em 'Open Sans', sans-serif, Arial, Tahoma, Verdana; 
+     text-align:left;
+     color:#000;  
+     height:100%; 
+}
+
+h1,h2,h3,h4,h5 {font-weight:700;line-height:normal}
+h1 {font-size:2em}
+h2 {font-size:1.5em}
+h3 {font-size:1.17em}
+h4 {font-size:1em}
+h5 {font-size:0.83em}
+h6 {font-size:0.67em}
+
+body{}
+
+a{
+	color:#0884bb;
+	text-decoration:underline; 
+	outline:none!important; 
+	cursor:pointer;
+}
+a:hover{text-decoration:none}
+
+/* PAGE=STRUCTURE - (page skeleton including header, footer, etc.) */
+#wrapper{
+    position:relative; 
+    width: 1200px;
+    margin:0 auto; 
+    padding: 0 20px;
+}
+header{
+    position: relative;
+}
+.container{}
+
+footer{
+	position: relative;
+}
+
+/* PAGE COMPONENTS - (particular page elements) */
+#logo{}
+
+/* header menu */
+.header-menu{}
+.header-menu li{}
+.header-menu li a{}
+
+
